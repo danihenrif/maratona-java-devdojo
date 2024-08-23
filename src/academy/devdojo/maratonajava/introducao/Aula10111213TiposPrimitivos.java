@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.introducao;
 
-public class Aula101112TiposPrimitivos {
+public class Aula10111213TiposPrimitivos {
     public static void main(String[] args) {
         // int, double, float, char, byte, short, long, boolean
         float x = 2500.0F;

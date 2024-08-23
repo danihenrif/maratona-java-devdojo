@@ -1,15 +1,21 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!" + "\n");
+        Scanner scanner = new Scanner(System.in);
+        int numeroCorreto = 7; // Número que o jogador deve adivinhar
+        int tentativa;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        do {
+            System.out.print("Adivinhe um número entre 1 e 10: ");
+            tentativa = scanner.nextInt();
+
+            if (tentativa != numeroCorreto) {
+                System.out.println("Errado! Tente novamente.");
+            }
+        } while (tentativa != numeroCorreto);
+
+        System.out.println("Parabéns! Você acertou o número.");
+        scanner.close();
     }
 }
