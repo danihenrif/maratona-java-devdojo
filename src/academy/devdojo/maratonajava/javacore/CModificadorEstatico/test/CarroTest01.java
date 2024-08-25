@@ -11,9 +11,7 @@ public class CarroTest01 {
         /*
         * Ao mudar aqui mudará de todas as instâncias
         */
-        c1.setVelLimite(180);
-
-        Carro.velLimite = 150;
+        Carro.setVelLimite(180);
 
         c1.imprimir();
         c2.imprimir();

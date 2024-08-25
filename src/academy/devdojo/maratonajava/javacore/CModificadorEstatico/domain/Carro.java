@@ -7,7 +7,7 @@ public class Carro {
     * A velocidade limite pertence a classe carro
     * e não as instâncias(objetos).
     */
-    public static double velLimite = 250;
+    private static double velLimite = 250;
 
     public Carro(String nome, double velocidadeMax) {
         this.nome = nome;
@@ -32,11 +32,17 @@ public class Carro {
         this.nome = nome;
     }
 
+
     public void setVelocidadeMax(double velocidadeMax) {
         this.velocidadeMax = velocidadeMax;
     }
 
-    public void setVelLimite(double velLimite) {
+    /*
+    * Método estático pertence a classe, sem necessidade de uma instância para chamá-lo
+    * Ele existe antes do objeto ser criado
+    * Não há como referenciar atributos não estáticos dentro de um método estático
+    */
+    public static void setVelLimite(double velLimite) {
         /*
         * Se referencia um atributo static com "Nome_da_classe".
         */
