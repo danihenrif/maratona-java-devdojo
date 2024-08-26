@@ -1,9 +1,14 @@
 package academy.devdojo.maratonajava.javacore.EHerança.dominio;
 
 public class Pessoa {
-    private String nome;
-    private String cpf;
-    private Endereco endereco;
+
+    /*
+    * Com o protected qualquer subclasse de qualquer pacote vai ter acesso direto
+    * aos atributos sem a nacessidade de usar o get.
+    */
+    protected String nome;
+    protected String cpf;
+    protected Endereco endereco;
 
     public void imprime(){
         System.out.println("Nome: " + nome);
