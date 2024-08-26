@@ -10,6 +10,21 @@ public class Pessoa {
     protected String cpf;
     protected Endereco endereco;
 
+    static {
+        System.out.println("Static de pessoa");
+    }
+
+    public Pessoa(String nome) {
+        System.out.println("Construtor de pessoa");
+        this.nome = nome;
+    }
+
+    {
+        System.out.println("Inicializacao de pessoa 1");
+    }
+    {
+        System.out.println("Inicializacao de pessoa 2");
+    }
     public void imprime(){
         System.out.println("Nome: " + nome);
         System.out.println("Cpf: " + cpf);
