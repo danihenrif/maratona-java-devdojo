@@ -7,6 +7,8 @@ public class Funcionario extends Pessoa {
 
     }
 
+    //Sobrescrita
+    @Override
     public void imprime(){
         super.imprime();
         System.out.println("Salário" + "= " + salario);
