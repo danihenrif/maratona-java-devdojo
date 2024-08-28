@@ -10,6 +10,9 @@ public abstract class Funcionario {
         this.salario = salario;
     }
 
+    //Não pode ser instanciado e pode ou deve ser sobrescrito pelas classes que estendem Funcionario
+    public abstract void calculaBonus();
+
     @Override
     public String toString() {
         return "Funcionario{" +
@@ -17,4 +20,11 @@ public abstract class Funcionario {
                 ", salario=" + salario +
                 '}';
     }
+
+    /*
+    * Caso uma classe abstrata tenha um método abstrato
+    * e outra classe abstrata extenda essa classe, esta classe
+    * não precisará implementar o método abstrato pelo fato de ser abstrata;
+    * Mas a classe concreta  que extender ela tem!
+    * */
 }
