@@ -16,7 +16,7 @@ public class StackOverflowTest01 {
         *            IOException: Lançada em operações de I/O (Input/Output) falhas.
         *            SQLException: Lançada para erros relacionados a bancos de dados.
         *            ClassNotFoundException: Lançada quando uma classe não é encontrada durante a execução.
-        *   - Unchecked exceptions(RunTimeException) :
+        *   - Unchecked exceptions(RunTimeException) (Geralmente erro de desenvolvimento) :
         *       Unchecked exceptions não são verificadas pelo compilador e podem ocorrer durante a execução do programa.
         *           Exemplos incluem:
             *           NullPointerException: Ocorre quando se tenta acessar um objeto que está com valor null.
