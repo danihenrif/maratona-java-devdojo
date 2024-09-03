@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.javacore.NException.test;
+package academy.devdojo.maratonajava.javacore.MException.test;
 
-import academy.devdojo.maratonajava.javacore.NException.test.domain.LoginInvalidException;
+import academy.devdojo.maratonajava.javacore.MException.test.domain.LoginInvalidException;
 
 public class LoginInvalidoException01 {
     public static void main(String[] args) {

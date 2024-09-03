@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.OWrappers;
+package academy.devdojo.maratonajava.javacore.NWrappers;
 
 public class WrapperTest01 {
     byte bt = 1;

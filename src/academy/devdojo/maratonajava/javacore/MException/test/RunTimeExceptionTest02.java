@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.NException.test;
+package academy.devdojo.maratonajava.javacore.MException.test;
 
 public class RunTimeExceptionTest02 {
     public static void main(String[] args) {

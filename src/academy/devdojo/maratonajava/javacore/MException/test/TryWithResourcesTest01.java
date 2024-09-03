@@ -1,7 +1,7 @@
-package academy.devdojo.maratonajava.javacore.NException.test;
+package academy.devdojo.maratonajava.javacore.MException.test;
 
-import academy.devdojo.maratonajava.javacore.NException.test.domain.Leitor1;
-import academy.devdojo.maratonajava.javacore.NException.test.domain.Leitor2;
+import academy.devdojo.maratonajava.javacore.MException.test.domain.Leitor1;
+import academy.devdojo.maratonajava.javacore.MException.test.domain.Leitor2;
 
 import java.io.*;
 

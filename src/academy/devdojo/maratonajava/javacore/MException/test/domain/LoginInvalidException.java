@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.NException.test.domain;
+package academy.devdojo.maratonajava.javacore.MException.test.domain;
 
 public class LoginInvalidException extends Exception {
     public LoginInvalidException(String message) {

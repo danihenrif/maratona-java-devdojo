@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.NException.test;
+package academy.devdojo.maratonajava.javacore.MException.test;
 
 import java.io.FileNotFoundException;
 import java.sql.SQLException;
