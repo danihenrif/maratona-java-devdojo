@@ -41,4 +41,8 @@ public class TryWithResourcesTest01 {
             }
         }
     }
+
+    /*
+    * A sobrescrita de métodos não carrega as exceções
+    * */
 }
