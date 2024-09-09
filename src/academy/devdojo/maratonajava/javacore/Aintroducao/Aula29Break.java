@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.introducao;
+package academy.devdojo.maratonajava.javacore.Aintroducao;
 
 public class Aula29Break {
     public static void main(String[] args) {

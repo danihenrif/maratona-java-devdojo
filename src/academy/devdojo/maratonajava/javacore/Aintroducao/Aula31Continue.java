@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.introducao;
+package academy.devdojo.maratonajava.javacore.Aintroducao;
 
 public class Aula31Continue {
     public static void main(String[] args) {
