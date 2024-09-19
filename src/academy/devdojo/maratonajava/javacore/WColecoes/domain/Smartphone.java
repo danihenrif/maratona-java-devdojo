@@ -20,6 +20,11 @@ public class Smartphone {
         return this.serialNumber != null && this.serialNumber.equals(smart.serialNumber);
     }
 
+    @Override
+    public int hashCode() {
+        return serialNumber == null ? 0 : this.serialNumber.hashCode();
+    }
+
     public Smartphone(String serialNumber, String marca) {
         this.serialNumber = serialNumber;
         this.marca = marca;
@@ -39,5 +44,13 @@ public class Smartphone {
 
     public void setMarca(String marca) {
         this.marca = marca;
+    }
+
+    @Override
+    public String toString() {
+        return "Smartphone{" +
+                "serialNumber='" + serialNumber + '\'' +
+                ", marca='" + marca + '\'' +
+                '}';
     }
 }
