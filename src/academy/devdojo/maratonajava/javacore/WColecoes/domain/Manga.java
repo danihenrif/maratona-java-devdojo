@@ -6,6 +6,14 @@ import java.util.Objects;
 public class Manga implements Comparable<Manga> {
     public Long id;
     public String nomeManga;
+    public Integer quantidade;
+
+
+    public Manga(Long id, String nomeManga, Integer quantidade) {
+        this.id = id;
+        this.nomeManga = nomeManga;
+        this.quantidade = quantidade;
+    }
 
     public Manga(Long id, String nomeManga) {
         Objects.requireNonNull(id);
@@ -45,6 +53,14 @@ public class Manga implements Comparable<Manga> {
 
     public void setNomeManga(String nomeManga) {
         this.nomeManga = nomeManga;
+    }
+
+    public Integer getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(Integer quantidade) {
+        this.quantidade = quantidade;
     }
 
     @Override
