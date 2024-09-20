@@ -68,6 +68,7 @@ public class Manga implements Comparable<Manga> {
         return "Manga{" +
                 "id=" + id +
                 ", nomeManga='" + nomeManga + '\'' +
+                ", quantidade=" + quantidade +
                 '}';
     }
 
