@@ -1,14 +1,15 @@
-package academy.devdojo.maratonajava.javacore.YClassesInternas.test;
+package academy.devdojo.maratonajava.javacore.ZComportamento.test;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
 
-public class LambdaTest02 {
-
+public class LambdaTest03 {
+    //Method reference
+    //Se a lambda chamar apenas um méto do eu posso usar
     public static void main(String[] args){
         List<String> l = List.of("Nome1", "Nome2", "Nome3");
-        List<Integer> integer = map(l, (String s) -> s.length());
+        List<Integer> integer = map(l, String::length); //<--- Exemplo
         System.out.println(integer);
 
     }
