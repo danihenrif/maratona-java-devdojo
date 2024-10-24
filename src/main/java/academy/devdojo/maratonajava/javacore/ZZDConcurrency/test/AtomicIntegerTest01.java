@@ -1,10 +1,14 @@
 package academy.devdojo.maratonajava.javacore.ZZDConcurrency.test;
 
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 class Counter{
     private int count;
     private AtomicInteger atomic = new AtomicInteger(0);
+    private Lock lock = new ReentrantLock();
 
     void increment(){
         /*synchronized(this){
